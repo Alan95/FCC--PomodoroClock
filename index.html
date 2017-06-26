@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Pomodoro Clock</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+<div class="container">
+    <div class="jumbotron">
+        <h3>Pomodoro Clock</h3>
+    </div>
+  <p id="hide">Click to start/stop the Session</p>
+    <div class="clocks">
+        <div class="left">
+            <div id="breakerclock">
+                <div id="breaker">
+                    <i class="fa fa-minus" id="smallerb" aria-hidden="true"></i>
+                    <i class="fa fa-plus" id="biggerb" aria-hidden="true"></i>
+                    <h5>Break Length</h5>
+                    <p id="breakerCounter">5:00</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="main">
+            <div id="mainclock">
+                <div id="duration">
+                    <h4 id="titleMain">Session</h4>
+                    <p id="clocker">25</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="right">
+            <div id="lengthclock">
+                <div id="length">
+                    <i class="fa fa-minus" id="smallers" aria-hidden="true"></i>
+                    <i class="fa fa-plus" id="biggers" aria-hidden="true"></i>
+                    <h5>Session Length</h5>
+                    <p id="lengthtimer"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
